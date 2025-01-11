@@ -8,13 +8,17 @@
       <change afterPath="$PROJECT_DIR$/.idea/fMRI_project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Brain Atlas Indices" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/anatomy_atlas_visualizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/big_project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/big_project_daniil.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700/Pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700/Pipeline.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735993850097</updated>
-      <workItem from="1736603507408" duration="3593000" />
+      <workItem from="1736603507408" duration="4068000" />
     </task>
     <servers />
   </component>
