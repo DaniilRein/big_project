@@ -1,0 +1,77 @@
+Harvard-oxford atlas areas
+For manual choosing of ROI
+
+Cortical regions:
+Index 0: Background
+Index 1: Frontal Pole
+Index 2: Insular Cortex
+Index 3: Superior Frontal Gyrus
+Index 4: Middle Frontal Gyrus
+Index 5: Inferior Frontal Gyrus, pars triangularis
+Index 6: Inferior Frontal Gyrus, pars opercularis
+Index 7: Precentral Gyrus
+Index 8: Temporal Pole
+Index 9: Superior Temporal Gyrus, anterior division
+Index 10: Superior Temporal Gyrus, posterior division
+Index 11: Middle Temporal Gyrus, anterior division
+Index 12: Middle Temporal Gyrus, posterior division
+Index 13: Middle Temporal Gyrus, temporooccipital part
+Index 14: Inferior Temporal Gyrus, anterior division
+Index 15: Inferior Temporal Gyrus, posterior division
+Index 16: Inferior Temporal Gyrus, temporooccipital part
+Index 17: Postcentral Gyrus
+Index 18: Superior Parietal Lobule
+Index 19: Supramarginal Gyrus, anterior division
+Index 20: Supramarginal Gyrus, posterior division
+Index 21: Angular Gyrus
+Index 22: Lateral Occipital Cortex, superior division
+Index 23: Lateral Occipital Cortex, inferior division
+Index 24: Intracalcarine Cortex
+Index 25: Frontal Medial Cortex
+Index 26: Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)
+Index 27: Subcallosal Cortex
+Index 28: Paracingulate Gyrus
+Index 29: Cingulate Gyrus, anterior division
+Index 30: Cingulate Gyrus, posterior division
+Index 31: Precuneous Cortex
+Index 32: Cuneal Cortex
+Index 33: Frontal Orbital Cortex
+Index 34: Parahippocampal Gyrus, anterior division
+Index 35: Parahippocampal Gyrus, posterior division
+Index 36: Lingual Gyrus
+Index 37: Temporal Fusiform Cortex, anterior division
+Index 38: Temporal Fusiform Cortex, posterior division
+Index 39: Temporal Occipital Fusiform Cortex
+Index 40: Occipital Fusiform Gyrus
+Index 41: Frontal Opercular Cortex
+Index 42: Central Opercular Cortex
+Index 43: Parietal Opercular Cortex
+Index 44: Planum Polare
+Index 45: Heschl's Gyrus (includes H1 and H2)
+Index 46: Planum Temporale
+Index 47: Supracalcarine Cortex
+Index 48: Occipital Pole
+
+Subcortical regions:
+Index 0: Background
+Index 1: Left Cerebral White Matter
+Index 2: Left Cerebral Cortex
+Index 3: Left Lateral Ventricle
+Index 4: Left Thalamus
+Index 5: Left Caudate
+Index 6: Left Putamen
+Index 7: Left Pallidum
+Index 8: Brain-Stem
+Index 9: Left Hippocampus
+Index 10: Left Amygdala
+Index 11: Left Accumbens
+Index 12: Right Cerebral White Matter
+Index 13: Right Cerebral Cortex
+Index 14: Right Lateral Ventricle
+Index 15: Right Thalamus
+Index 16: Right Caudate
+Index 17: Right Putamen
+Index 18: Right Pallidum
+Index 19: Right Hippocampus
+Index 20: Right Amygdala
+Index 21: Right Accumbens
