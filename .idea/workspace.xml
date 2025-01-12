@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
+    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Some cleaning up, second level still not functional. Working on designing the right matrix.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/big_project_daniil.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/big_project_daniil.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
@@ -14,6 +15,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,7 +153,8 @@
       <option name="presentableId" value="Default" />
       <updated>1735993850097</updated>
       <workItem from="1736603507408" duration="4068000" />
-      <workItem from="1736610289395" duration="1762000" />
+      <workItem from="1736610289395" duration="2330000" />
+      <workItem from="1736693400916" duration="7752000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
       <option name="closed" value="true" />
@@ -158,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736607851493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some cleaning up, second level still not functional. Working on designing the right matrix.">
+      <option name="closed" value="true" />
+      <created>1736612288952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736612288952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'" />
+    <MESSAGE value="Some cleaning up, second level still not functional. Working on designing the right matrix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cleaning up, second level still not functional. Working on designing the right matrix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -183,17 +198,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/big_project_daniil.ipynb</url>
-          <line>119</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/big_project_daniil.ipynb</url>
-          <line>214</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/big_project_daniil.ipynb</url>
-          <line>188</line>
+          <line>186</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
