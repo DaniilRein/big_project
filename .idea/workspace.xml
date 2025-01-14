@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Second-level in progress, there is a small mismatch between images and FOV reverence.">
+    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Second-level working, trying to decide which plotting coordinates are best.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/big_project_daniil.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/big_project_daniil.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
@@ -152,7 +152,9 @@
       <updated>1735993850097</updated>
       <workItem from="1736603507408" duration="4068000" />
       <workItem from="1736610289395" duration="2330000" />
-      <workItem from="1736693400916" duration="13645000" />
+      <workItem from="1736693400916" duration="13730000" />
+      <workItem from="1736755191145" duration="226000" />
+      <workItem from="1736839552419" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
       <option name="closed" value="true" />
@@ -178,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736701917974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second-level working, trying to decide which plotting coordinates are best.">
+      <option name="closed" value="true" />
+      <created>1736751478202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736751478202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +209,8 @@
     <MESSAGE value="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'" />
     <MESSAGE value="Some cleaning up, second level still not functional. Working on designing the right matrix." />
     <MESSAGE value="Second-level in progress, there is a small mismatch between images and FOV reverence." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second-level in progress, there is a small mismatch between images and FOV reverence." />
+    <MESSAGE value="Second-level working, trying to decide which plotting coordinates are best." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second-level working, trying to decide which plotting coordinates are best." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,7 +227,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/big_project_daniil.ipynb</url>
-          <line>186</line>
+          <line>182</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
