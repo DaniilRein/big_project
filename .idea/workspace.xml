@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Opting for a simplified pipeline that works much smoother than the previous one.">
+    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Removed unused files from git, started cleaning up and improving the documentation of the pipeline.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brain Atlas Indices" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anatomy_atlas_visualizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/big_project_daniil.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +155,7 @@
       <workItem from="1736693400916" duration="13730000" />
       <workItem from="1736755191145" duration="226000" />
       <workItem from="1736839552419" duration="12337000" />
-      <workItem from="1736933399661" duration="3239000" />
+      <workItem from="1736933399661" duration="5501000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
       <option name="closed" value="true" />
@@ -210,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736936208123</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Removed unused files from git, started cleaning up and improving the documentation of the pipeline.">
+      <option name="closed" value="true" />
+      <created>1736937314249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736937314249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +237,8 @@
     <MESSAGE value="Second-level working, trying to decide which plotting coordinates are best." />
     <MESSAGE value="Whole brain comparisons are now working well. Will now attempt to use the ROIs I created to improve statistical power by focusing on smaller areas and performing less repeating t-tests." />
     <MESSAGE value="Opting for a simplified pipeline that works much smoother than the previous one." />
-    <option name="LAST_COMMIT_MESSAGE" value="Opting for a simplified pipeline that works much smoother than the previous one." />
+    <MESSAGE value="Removed unused files from git, started cleaning up and improving the documentation of the pipeline." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused files from git, started cleaning up and improving the documentation of the pipeline." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fMRI_project$visualize_file_structure.coverage" NAME="visualize_file_structure Coverage Results" MODIFIED="1736608071178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
