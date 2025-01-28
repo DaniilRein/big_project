@@ -13,10 +13,7 @@ dependencies = [
     "nilearn>=0.10.3",  # for fMRI analysis
     "nibabel>=5.2.0",   # for neuroimaging file handling
     "matplotlib>=3.8.0",
-    "scipy>=1.12.0",
-    "jupyter>=1.0.0",   # for notebook support
-    "notebook>=7.0.0",  # for notebook interface
-    "ipykernel>=6.0.0"  # for Jupyter kernel support
+    "scipy>=1.12.0"
 ]
 
 [project.optional-dependencies]
@@ -87,7 +84,7 @@ disallow_untyped_defs = true # Functions need to be annotated
 warn_unused_ignores = true
 ignore_missing_imports = true
 exclude = [
-    "my-project-\\d+", # Ignore temporary folder created by setuptools when building an sdist
+    "my-project-\\d+", # Ignore temporary folder created by setuptools when building a sdist
     "venv.*/",
     "build/",
     "dist/",

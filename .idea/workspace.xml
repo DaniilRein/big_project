@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Changed to function-based program as instructed.">
+      <change afterPath="$PROJECT_DIR$/my_project.code-workspace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,7 @@
       <workItem from="1737983938677" duration="90000" />
       <workItem from="1737984167532" duration="170000" />
       <workItem from="1738049801303" duration="4255000" />
-      <workItem from="1738078171726" duration="1750000" />
+      <workItem from="1738078171726" duration="3185000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
       <option name="closed" value="true" />
@@ -266,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738055267563</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changed to function-based program as instructed.">
+      <option name="closed" value="true" />
+      <created>1738082245897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738082245897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +306,8 @@
     <MESSAGE value="Improved comments" />
     <MESSAGE value="Updated the cloned .toml to match my pipelines required packages." />
     <MESSAGE value="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore" />
+    <MESSAGE value="Changed to function-based program as instructed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to function-based program as instructed." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fMRI_project$visualize_file_structure.coverage" NAME="visualize_file_structure Coverage Results" MODIFIED="1736608071178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
