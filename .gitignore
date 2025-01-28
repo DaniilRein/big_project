@@ -1,1 +1,38 @@
-.venv
+# Neuroimaging data files
+*.nii.gz
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Test coverage
+.coverage
+coverage.xml
+.pytest_cache/
+reports/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project-specific directories with intermediate results
+checkpoints/
+results/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE settings
+.idea/
+.vscode/
