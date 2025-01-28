@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Updated the cloned .toml to match my pipelines required packages.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project.code-workspace" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,7 +47,7 @@
     "Python.visualize_file_structure.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "function__based",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fMRI_project" />
       <option name="ENV_FILES" value="" />
@@ -133,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.visualize_file_structure" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +167,8 @@
       <workItem from="1737970025755" duration="521000" />
       <workItem from="1737983938677" duration="90000" />
       <workItem from="1737984167532" duration="170000" />
-      <workItem from="1738049801303" duration="3381000" />
+      <workItem from="1738049801303" duration="4255000" />
+      <workItem from="1738078171726" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
       <option name="closed" value="true" />
@@ -261,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737970169566</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore">
+      <option name="closed" value="true" />
+      <created>1738055267563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738055267563</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,10 +295,12 @@
     <MESSAGE value="Cloned the supplementary files from the demonstration repository posted at github/brainlytics/mcolesh" />
     <MESSAGE value="Improved comments" />
     <MESSAGE value="Updated the cloned .toml to match my pipelines required packages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the cloned .toml to match my pipelines required packages." />
+    <MESSAGE value="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fMRI_project$visualize_file_structure.coverage" NAME="visualize_file_structure Coverage Results" MODIFIED="1736608071178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fMRI_project$testing.coverage" NAME="testing Coverage Results" MODIFIED="1737983964187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fMRI_project$main.coverage" NAME="main Coverage Results" MODIFIED="1738081563763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
