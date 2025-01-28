@@ -1,13 +1,14 @@
 # fMRI Emotion Analysis Pipeline
-
 A Python-based pipeline for analyzing emotional responses in fMRI data, focusing on
 positive, negative, and neutral emotional states across multiple subjects.
 
 ## Overview
-
 This project implements a group-level fMRI analysis pipeline to study emotional responses in the brain.
 The pipeline processes pre-analyzed fMRI data and performs statistical analysis to
 identify brain regions associated with different emotional states.
+
+## Project documentation
+See the included 'PythonReport - Daniil.pdf'
 
 ### Key Features
 - Group-level analysis of 40 subjects
@@ -17,7 +18,6 @@ identify brain regions associated with different emotional states.
 - Visualization of brain activation patterns
 
 ## Prerequisites
-
 - Python 3.12 or higher
 - At least 16GB RAM recommended
 - 50GB free disk space for the full dataset and analysis results
