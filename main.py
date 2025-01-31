@@ -216,7 +216,6 @@ def plot_group_results(group_results, results_dir):
     # Convert Z-score threshold to p-value
     z_threshold = 3.1
     p_val = norm.sf(z_threshold)
-    print(f"Z-score threshold {z_threshold} corresponds to p-value < {p_val:.3e}")
 
     # Plot results for each contrast
     for contrast_name, (z_map, p_map) in group_results.items():

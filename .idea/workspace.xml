@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonReport - Daniil.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fMRI_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fMRI_project.iml" afterDir="false" />
+    <list default="true" id="f457754d-9891-4e7a-a3bc-4244549eabe3" name="Changes" comment="Added the project report pdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ds005700" beforeDir="false" afterPath="$PROJECT_DIR$/ds005700" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_project.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/fmri-emotion-analysis.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmri-emotion-analysis.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/fmri-emotion-analysis.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +170,9 @@
       <workItem from="1737984167532" duration="170000" />
       <workItem from="1738049801303" duration="4255000" />
       <workItem from="1738078171726" duration="3457000" />
-      <workItem from="1738084186100" duration="103000" />
+      <workItem from="1738084186100" duration="141000" />
+      <workItem from="1738173055587" duration="15000" />
+      <workItem from="1738304886890" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="First commit&#10;Attempting to convert the python script into a jupyter linear notebook without functions and 'main'">
       <option name="closed" value="true" />
@@ -286,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738083633942</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added the project report pdf">
+      <option name="closed" value="true" />
+      <created>1738084296009</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738084296009</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +326,8 @@
     <MESSAGE value="Improved printing results section to support checkpoint saving/loading like the previous sections. Improved project documentation in .toml and .gitignore" />
     <MESSAGE value="Changed to function-based program as instructed." />
     <MESSAGE value="Significantly improved project's documentation and workspace initialization." />
-    <option name="LAST_COMMIT_MESSAGE" value="Significantly improved project's documentation and workspace initialization." />
+    <MESSAGE value="Added the project report pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the project report pdf" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fMRI_project$visualize_file_structure.coverage" NAME="visualize_file_structure Coverage Results" MODIFIED="1736608071178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

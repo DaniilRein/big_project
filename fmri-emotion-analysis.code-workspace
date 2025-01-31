@@ -13,8 +13,7 @@
             "charliermarsh.ruff",
             "njpwerner.autodocstring",
             "visualstudioexptteam.vscodeintellicode",
-            "ms-python.black-formatter",
-            "mechatroner.rainbow-csv"
+            "ms-python.black-formatter"
         ]
     },
     "settings": {
