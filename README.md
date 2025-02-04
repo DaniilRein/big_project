@@ -1,53 +1,99 @@
+# fMRI Emotion Analysis Pipeline
+A Python-based pipeline for analyzing emotional responses in fMRI data, focusing on
+positive, negative, and neutral emotional states across multiple subjects.
 
-The code is set-up in a way that makes the process linear instead of
-modular by functions using jupyter notebooks. After each step - code block - the results are
-saved in the project directory/checkpoints to prevent unnecessary repetitions.
+## Overview
+This project implements a group-level fMRI analysis pipeline to study emotional responses in the brain.
+The pipeline processes pre-analyzed fMRI data and performs statistical analysis to
+identify brain regions associated with different emotional states.
 
-In the original README it is stated that preprocessing was already performed as such:
-""
-Data have been preprocessed using:
-- SPM12
-  - Motion correction
-  - Slice-timing correction
-  - Co-registration
-  - Segmentation
-  - Normalization to MNI space
-  - Smoothing
-""
-  - 
-Averaging the entire 30 seconds of each condition, 2 conditions per emotion group (positive/negative)
-then averaging across 40 subjects - allows the basic full-brain t-tests more statistically significant. 
+## Project documentation
+See the included 'PythonReport - Daniil.pdf'
 
-MEG and EEG couldn't have given accurate subcortical reading which is most correlated with emotion.
-Then using fMRI for this question is ideal. Also, it saves the trouble of the inverse problem faced by those two methods.
+### Key Features
+- Group-level analysis of 40 subjects
+- Comparison of positive, negative, and neutral emotional states
+- Statistical mapping with Z-score thresholding
+- Automated checkpoint system for intermediate results
+- Visualization of brain activation patterns
 
-how outsider can use the pipeline.
+## Prerequisites
+- Python 3.12 or higher
+- At least 16GB RAM recommended
+- 50GB free disk space for the full dataset and analysis results
 
+## Data Sources
+- OpenNeuro Dataset: [ds005700](https://openneuro.org/datasets/ds005700)
 
-## Primary Source/Article
-Article/s link/s
+### Original processing pipelines by the authors
+- GitHub Repository: [NeuroEmo](https://github.com/abgeena/NeuroEmo)
 
-## Project Data:
-Link to project's raw data (first input)
+### Data Preprocessing
+The input data has been preprocessed using SPM12 with the following pipeline:
+- Motion correction
+- Slice-timing correction
+- Co-registration
+- Segmentation
+- Normalization to MNI space
+- Smoothing
 
-## Project Documentation:
-Project Workflow/Pipeline (Either included here or linked to a Drive document)
+### Analysis Parameters
+- 30-second condition averaging
+- 2 conditions per emotion group (positive/negative)
+- 40 subject group-level analysis
+- Z-score threshold: 3.1
 
-## To run the project follow this commands:
-All command should run under project root/working-directory
-```bash 
-#install Virtualenv is - a tool to set up your Python environments
+## Project Structure
+fmri-emotion-analysis/
+├── checkpoints/        # Intermediate processing results
+├── results/           # Final analysis outputs and figures
+├── main.py           # Primary analysis pipeline
+├── pyproject.toml    # Project dependencies and configuration
+└── README.md         # Project documentation
+
+## Data Checkpointing
+
+This pipeline uses Python's pickle module for data serialization and checkpointing. Intermediate results are saved in the `checkpoints` directory after each processing step to:
+- Prevent unnecessary recomputation
+- Allow for interruption and resumption of the pipeline
+- Enable inspection of intermediate results
+
+Checkpoint files are saved with `.pkl` extension and can be loaded using Python's pickle module.
+
+## Literature review as testing
+
+Due to the nature of this project, direct testing of the data is not straight forward. Instead, I looked up the
+literature on fMRI studies of emotion to check whether the results I got make sense. According to a few robust
+publications it does seem like the results make sense in the context of the original study and results.
+More on that in the included "PythonReport - Daniil.pdf"
+
+Article links:
+https://www.cell.com/cognitive-sciences/abstract/S1364-6613(11)00171-9
+https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00074/full?ref=siddchauhan.com
+https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(19)30178-0
+
+## Installation
+
+All commands should be run under the project root directory:
+
+```bash
+# Install Virtualenv
 pip install virtualenv
-#create virtual environment (serve only this project):
-python -m venv venv
-#activate virtual environment
-.\venv\Scripts\activate
-+ (venv) should appear as prefix to all command (run next command just after activating venv)
-#update venv's python package-installer (pip) to its latest version
-python.exe -m pip install --upgrade pip
-#install projects packages (Everything needed to run the project)
-pip install -e .
-#install dev packages (Additional packages for linting, testing and other developer tools)
-pip install -e .[dev]
-``` 
 
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# For Windows:
+.\venv\Scripts\activate
+# For macOS/Linux:
+source venv/bin/activate
+
+# Update pip
+python -m pip install --upgrade pip
+
+# Install project dependencies
+pip install -e .
+
+# Install development tools (optional)
+pip install -e .[dev]
