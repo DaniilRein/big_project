@@ -60,6 +60,18 @@ This pipeline uses Python's pickle module for data serialization and checkpointi
 
 Checkpoint files are saved with `.pkl` extension and can be loaded using Python's pickle module.
 
+## Literature review as testing
+
+Due to the nature of this project, direct testing of the data is not straight forward. Instead, I looked up the
+literature on fMRI studies of emotion to check whether the results I got make sense. According to a few robust
+publications it does seem like the results make sense in the context of the original study and results.
+More on that in the included "PythonReport - Daniil.pdf"
+
+Article links:
+https://www.cell.com/cognitive-sciences/abstract/S1364-6613(11)00171-9
+https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00074/full?ref=siddchauhan.com
+https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(19)30178-0
+
 ## Installation
 
 All commands should be run under the project root directory:

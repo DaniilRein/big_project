@@ -99,10 +99,10 @@ def process_single_subject(subject_id, events, checkpoints_dir):
         func_img = image.load_img(func_file)
 
         model = FirstLevelModel(
-            t_r=2.02697,
+            t_r=2.02697, #Time it took to scan a single head volume, according to experiment's README.
             noise_model='ar1',
             standardize=True,
-            hrf_model='spm',
+            hrf_model='spm', #Standard statistical methods from Nilearn
             drift_model='cosine'
         )
         model.fit(func_img, events)
@@ -139,12 +139,12 @@ def run_group_analysis(all_subject_contrasts, n_subjects):
         dict: Group-level results for each contrast
     """
     design_matrix = pd.DataFrame({
-        'intercept': np.ones(n_subjects),
+        'intercept': np.ones(n_subjects), #A matrix with one column and 40 rows full of ones, to sum all subjects
     })
 
     second_level_model = SecondLevelModel(
-        smoothing_fwhm=8.0,
-        n_jobs=1,
+        smoothing_fwhm=8.0, #Balance between spatial resolution and good amount of averaging
+        n_jobs=1, #Single core processing for stability
         memory=None,
         verbose=0
     )
@@ -163,7 +163,7 @@ def run_group_analysis(all_subject_contrasts, n_subjects):
         contrast_maps_list = []
         first_map = all_subject_contrasts[0][contrast_name]
         reference_affine = first_map.affine
-        reference_shape = first_map.shape[:3]
+        reference_shape = first_map.shape[:3] #All results will be shown on a reference head anatomy
 
         for subject_contrasts in all_subject_contrasts:
             contrast_img = subject_contrasts[contrast_name]
@@ -214,7 +214,7 @@ def plot_group_results(group_results, results_dir):
     plotting_results = {}
 
     # Convert Z-score threshold to p-value
-    z_threshold = 3.1
+    z_threshold = 3.1 #Choosing which threshold to show in the plots
     p_val = norm.sf(z_threshold)
 
     # Plot results for each contrast
